@@ -1,24 +1,24 @@
 '''
-ooooooooooooo               .             o8o           
-8'   888   `8             .o8             `"'           
-     888       .ooooo.  .o888oo oooo d8b oooo   .oooo.o 
-     888      d88' `88b   888   `888""8P `888  d88(  "8 
-     888      888ooo888   888    888      888  `"Y88b.  
-     888      888    .o   888 .  888      888  o.  )88b 
-    o888o     `Y8bod8P'   "888" d888b    o888o 8""888P' 
+ooooooooooooo               .             o8o
+8'   888   `8             .o8             `"'
+     888       .ooooo.  .o888oo oooo d8b oooo   .oooo.o
+     888      d88' `88b   888   `888""8P `888  d88(  "8
+     888      888ooo888   888    888      888  `"Y88b.
+     888      888    .o   888 .  888      888  o.  )88b
+    o888o     `Y8bod8P'   "888" d888b    o888o 8""888P'
 '''
 
 # Juego Retro de Tetris en C++ usando Raylib
 
 🕹️🐍🎮 Este repositorio de GitHub alberga el código fuente completo de un juego del famoso Tetris, que diseñado y programado por Alekséi Pázhitnov en la Unión Soviética. Se publicó el 6 de junio de 1984, mientras trabajaba para el Centro de Computación Dorodnitsyn de la Academia de Ciencias de la Unión Soviética en Moscú. La musica original del juego se llama el tema "Korobeiniki".
 
-Esta version simple esta creada con el lenguaje de programación C++ y la biblioteca Raylib. 💻🎨🎧 
+Esta version simple esta creada con el lenguaje de programación C++ y la biblioteca Raylib. 💻🎨🎧
 
 El juego utiliza varias funciones de raylib para el manejo de gráficos, manejo de entrada y audio y se puede jugar en computadoras con Sistema operativos de macOS, Linux y Windows. 🔍📖 El código está bien estructurado y es fácil de leer, se han ido poniendo comentarios, y otros comentarios en el avance y mejoras que se han ido, lo que lo convierte en un recurso valioso para los aspirantes a desarrolladores de juegos que buscan aprender sobre la programación de juegos con la libreria raylib.
 
-Si quieres aprender a crear tu propio juego, consulta este juego a través de cada línea de código, explicando la lógica detrás de ella y demostrando cómo afecta al juego. Descubrirás cómo configurar la ventana del juego, crear la cuadrícula y las clases de bloques, agregar detección de colisiones e implementar efectos de sonido. 
+Si quieres aprender a crear tu propio juego, consulta este juego a través de cada línea de código, explicando la lógica detrás de ella y demostrando cómo afecta al juego. Descubrirás cómo configurar la ventana del juego, crear la cuadrícula y las clases de bloques, agregar detección de colisiones e implementar efectos de sonido.
 
-Al final, tendrás un juego de Tetris completamente funcional que podrás jugar y modificar como quieras. 
+Al final, tendrás un juego de Tetris completamente funcional que podrás jugar y modificar como quieras.
 
 ☕ Entonces, ¡toma una taza de café y sumergámonos en el apasionante mundo del desarrollo de juegos! 🚀
 
@@ -85,18 +85,20 @@ En las primeras versiones de Tetris, no había límite de niveles. La velocidad 
 
 Aquí hay una tabla de equivalencia aproximada que podrías utilizar como referencia en tu implementación del juego:
 
-Nivel   Líneas eliminadas
-  1     0-9
-  2     10-19
-  3     20-29
-  4     30-39
-  5     40-49
-  6     50-59
-  7     60-69
-  8     70-79
-  9     80-89
- 10     90-99
- 11+    Cada 10 líneas
+| Nivel | Líneas eliminadas|
+|-------|------------------|
+| 1     | 0-9              |
+| 2     | 10-19            |
+| 3     | 20-29            |
+| 4     | 30-39            |
+| 5     | 40-49            |
+| 6     | 50-59            |
+| 7     | 60-69            |
+| 8     | 70-79            |
+| 9     | 80-89            |
+| 10    | 90-99            |
+| 11+   | Cada 10 líneas   |
+|-------|------------------|
 
 Recuerda que esta tabla es solo una aproximación y que puedes ajustar los valores para adaptarlos a tus necesidades y al tipo de juego que estés desarrollando. Además, puedes introducir niveles más altos o un límite para la velocidad máxima si lo consideras necesario.
 
@@ -120,5 +122,4 @@ Algunas de las mejoras que quiero que se incluyan:
 - Menu: Crear pantalla de inicio, con ayuda y caratula.
 - Tabla de records: Poder intriducir iniciales del jugador y ver los records en pantalla.
 - Preferencias: poder activar o descativar funcionalidades o otros parametros
-- Incluir niveles para poner dificultat al juego.
 - Otros variantes del juego Tetris.
