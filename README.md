@@ -49,7 +49,7 @@ Los sonidos son de tipo libre, ya que los originales del juego tienen CopyRight.
 <br>
 <br>
 <p align="center">
-| 📺 <a href="https://nvarona.x10.bz/">My Web Personal Channel</a>
+| 📺 <a href="https://nvarona.x10.bz/">My Web Personal - Portfolio</a>
 | 🌍 <a href="https://nvarona.x10.bz/blog">My Blog Website</a> | 2024 |<br>
 </p>
 
@@ -98,7 +98,6 @@ Aquí hay una tabla de equivalencia aproximada que podrías utilizar como refere
 | 9     | 80-89            |
 | 10    | 90-99            |
 | 11+   | Cada 10 líneas   |
-|-------|------------------|
 
 Recuerda que esta tabla es solo una aproximación y que puedes ajustar los valores para adaptarlos a tus necesidades y al tipo de juego que estés desarrollando. Además, puedes introducir niveles más altos o un límite para la velocidad máxima si lo consideras necesario.
 
